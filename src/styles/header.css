@@ -1,0 +1,37 @@
+header {
+  background-color: #fff9ea;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 28px 8%;
+  z-index: 2;
+}
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav_logo {
+  font-size: 24px;
+  color: var(--green-main);
+}
+#nav_list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+.nav_item a {
+  color: #1d1d1dad;
+  font-weight: 600;
+}
+.nav_item.active a {
+  border-bottom: 3px solid var(--green-light);
+}
+#mobile_btn {
+  display: none;
+}
+#mobile_menu {
+  display: none;
+}
+
